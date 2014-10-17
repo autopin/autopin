@@ -1,14 +1,12 @@
 autopin
 =======
 
-This is the original autopin implementation. Feel free to try it, but it may be outdated.
+This is the original autopin implementation. Feel free to try it, but it may be outdated. Try [Autopin+](https://github.com/autopin/autopin-plus) for a current tool.
 
+Autopin is a thread to core pinning tool, based on perfmon. To use this tool, the perfmon patch must be installed. Furthermore for NUMA-architectures the automatic page migration patch by Lee Schermerhorn must be installed ([Patch](http://free.linux.hp.com/~lts/Patches/PageMigration/2.6.36-mmotm-101103-1217/)). Autopin is designed to work with the Intel compiler.
 
-Original Readme
------------
-Autopin is generated for icc (the Intel compiler), because this is the most efficient compiler. To use this tool, the perfmon patch must be installed. Furthermore, for NUMA-architectures the automatic page migration patch by Lee Schermerhorn must be installed ([Patch](http://free.linux.hp.com/~lts/Patches/PageMigration/2.6.36-mmotm-101103-1217/)).
-
-Howto: 
+Howto:
+------
 
 1. make in the autopin folder 
 
